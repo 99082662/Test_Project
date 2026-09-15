@@ -2,9 +2,12 @@ def faculteit(n):
     totaal = 1
     while n > 1:
         totaal *= n
+        n -= 1
     return n
 
 if __name__== "__main__":
+    print("--Start test --")
+    
     print(faculteit(0))
     print(faculteit(1))
     print(faculteit(2))
@@ -12,3 +15,4 @@ if __name__== "__main__":
     print(faculteit(4))
     print(faculteit(5))
     
+    print("-- Einde test --")
